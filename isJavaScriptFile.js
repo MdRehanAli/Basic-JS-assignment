@@ -1,6 +1,7 @@
 // 2. Check whether the given file name is a javaScript file or not.
 
 function isJavaScriptFile(fileName) {
+    // data type check 
     if (typeof fileName !== 'string') {
         return 'Please Enter a string!';
     }
