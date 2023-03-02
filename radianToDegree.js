@@ -1,3 +1,5 @@
+// 1. convert radian to degree
+
 function radianToDegree(radian) {
     if (typeof radian !== 'number') {
         return 'Please Enter a number!';
